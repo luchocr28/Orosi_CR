@@ -1,0 +1,37 @@
+{
+  "name": "Orosi, dedica a la construcción de obras de infraestructura y de
+  ingeniería civil",
+  "short_name": "Orosi",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0055a5",
+  "theme_color": "#0055a5",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/files/img/favicons/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/files/img/favicons/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/assets/files/img/favicons/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "/assets/files/img/favicons/favicon-16x16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "/assets/files/img/favicons/favicon-32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    }
+  ]
+}

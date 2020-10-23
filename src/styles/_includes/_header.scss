@@ -1,0 +1,62 @@
+#header {
+  position: relative;
+  .hero {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../files/img/hero.jpg");
+    background-attachment: fixed;
+    height: 50vh;
+    @include mq("tablet") {
+      height: 100vh;
+    }
+
+    .texture {
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      position: absolute;
+      top: 0;
+      left: 0;
+      // background: url("../files/img/texture.png");
+      object-fit: cover;
+    }
+
+    &::after {
+      width: 100%;
+      height: 100%;
+      content: "";
+      position: absolute;
+      z-index: 9;
+      top: 0;
+      left: 0;
+      background: rgba(4, 4, 4, 0.4);
+    }
+    .caption {
+      padding: 0 5%;
+      h1,
+      h2 {
+        color: white;
+        opacity: 0;
+        transform: scale(0.9);
+      }
+      h1 {
+        font-size: 4rem;
+      }
+      h2 {
+        font-size: 1.8rem;
+        font-weight: 300;
+      }
+      @include mq("tablet") {
+        padding: 0 20%;
+        h1 {
+          font-size: 8rem;
+        }
+        h2 {
+          font-size: 2.8rem;
+        }
+      }
+    }
+  }
+}

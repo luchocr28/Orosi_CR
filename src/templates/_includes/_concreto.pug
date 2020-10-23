@@ -1,0 +1,59 @@
+#concreto
+    section.bannerBg
+        #concretoTitle
+            h1 CONCRETO PREMEZCLADO  
+    .concreto-main.d-flex.flex-column.d-sm-flex.flex-md-row#concreto-container
+        .box-left.d-flex.justify-content-center#concreteBoxLeft
+            .chose_text_inner
+                article
+                    h2 CONCRETO PREMEZCLADO
+                    p Desde el año 2000 iniciamos con la producción de concreto premezclado en nuestra planta principal en curridabat para abastecer toda el gran área metropolitana, nos enfocamos en convertir un producto como el concreto premezclado en un producto 100 % Calidad Orosi, es ir más allá de entregar un producto, es ofrecer una experiencia de compra satisfactoria al cliente.
+                    p Contamos con cuatro centros de producción de concreto para cubrir las necesidades de nuestros clientes en todo Costa Rica ubicados en:
+                    p
+                        i.fa.fa-map-marker-alt
+                        |&nbsp;&nbsp;Curridabat, San Jose
+                    p
+                        i.fa.fa-map-marker-alt
+                        |&nbsp;&nbsp;Coyol, Alajuela
+                    p
+                        i.fa.fa-map-marker-alt
+                        |&nbsp;&nbsp;Cartago
+                    p
+                        i.fa.fa-map-marker-alt
+                        |&nbsp;&nbsp;Guanacaste
+                    p Producimos concreto premezclado con plantas dosificadoras automatizadas, cuentan con sensores de humedad que nos garantizan mezclas de concreto de calidad cumpliendo rigurosamente todos los estándares de calidad bajo las normas internacionales y las normas vigentes actualmente en nuestro país, contamos con sistemas de logística y despacho en tiempo real para asegurar el cumplimiento a satisfacción de cada una de las entregas.     
+                article
+                    h2 Nuestra Flota actual se compone de:
+                    p
+                        i.fa.fa-truck-moving
+                        b.ifs 35 
+                        | Camiones Mezcladores
+                    p
+                        i.fa.fa-truck-loading
+                        b.ifs 3 
+                        | Bombas Estacionarias
+                    p
+                        i.fa.fa-toolbox
+                        b.ifs 5 
+                        | Bombas Telescópicas de 28 y 36 metros de longitud
+        .box-right#concreteBoxRight        
+            .box-right-video-wrapper.text-center
+                h2#concreteBoxRightTitle Somos expertos en macrolosas de concreto
+                div(type="button" data-toggle="modal" data-target="#exampleModalCenter")
+                    img.play(src="files/img/video/play.jpg")
+                    
+#exampleModalCenter.modal.fade.videoModal(tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true")
+    .modal-dialog.modal-dialog-centered.modal-lg(role="document")
+        .modal-content
+            .modal-header
+                //- h4#exampleModalCenterTitle.modal-title.text-center SOMOS EXPERTOS EN MACROLOSAS DE CONCRETO
+                button.close(type="button" data-dismiss="modal" aria-label="Close")
+                    span(aria-hidden="true") ×
+            .modal-body
+                video(preload="auto" controls width="100%")#myPlayer
+                    | Your browser does not support the video tag.
+                    source(src="files/img/video/video_macro.mp4", type="video/mp4")
+            .modal-footer
+                button.btn.btn-secondary(type="button" data-dismiss="modal" style="background-color:#000000 !important") Close
+
+    

@@ -1,0 +1,36 @@
+#video {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background: $orosi-blue;
+  object-fit: cover;
+  video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 9;
+  }
+  .texture {
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../files/img/video/texture1.png");
+    object-fit: cover;
+  }
+  &::after {
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.1);
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "quieneSomos": {
+    "title": "GRUPO OROSI",
+    "par1": "Somos un equipo de trabajo enfocado al cliente y comprometido con la mejora continua en la gestión y productividad del Grupo. Trabajamos en un ambiente de calidad, honestidad, confianza y responsabilidad ambiental.",
+    "quoteEs": "<p class='pt-1'>La calidad nunca es una casualidad; es el resultado del esfuerzo inteligente del equipo humano Orosi<br><br><b>&mdash; Eladio Araya</b></p>",
+    "whoWeAreArticleEs":"<h1>Quienes somos?</h1><p>Nuestra Organización se dedica a la construcción de obras de infraestructura y de ingeniería civil. Nos especializamos en ofrecer a nuestros clientes soluciones integrales, desde movimientos de tierra y “agregados de calidad Orosi”, hasta la gestión de proyectos exitosos.</p> <p>Administramos con excelencia obras y proyectos sin distinción de tamaño; nuestro trabajo es preciso y el servicio nuestra vocación. Planificamos nuestras operaciones para garantizar a los Clientes oportunidad en las entregas y en el desarrollo puntual de las obras y proyectos.</p> <p> Nos distinguimos como equipo humano profesional que enfoca sus competencias a servir a nuestros Clientes.</p> <p>Hoy somos el resultado de una trayectoria forjada en el trabajo inteligente y la dedicación plena en beneficio de Nuestros Clientes.</p>"
+
+  },
+  "whoWeAre": {
+    "title": "OROSI GROUP",
+    "par1": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum aperiam neque natus. Sint autem error veritatis voluptatem, enim fugiat hic minus alias natus explicabo atque soluta eum doloribus non magnam?",
+    "quoteEn": "<p class='pt-1'>Lorem Ipsum<br><br><b>&mdash; Eladio Araya</b></p>",
+    "whoWeAreArticleEn":"<h1>Who We are?</h1> <p>Par 1</p> <p>Par 2</p> <p> Par 3</p> <p>Par 4</p>"
+  },
+  "concreto": {
+    "concretoTitleEs" : "<h1>CONCRETO PREMEZCLADO</h1>",
+    "boxLeftEs": "<div class='chose_text_inner'><article><h2>CONCRETO PREMEZCLADO</h2><p>Desde el año 2000 iniciamos con la producción de concreto premezclado en nuestra planta principal en curridabat para abastecer toda el gran área metropolitana, nos enfocamos en convertir un producto como el concreto premezclado en un producto 100 % Calidad Orosi, es ir más allá de entregar un producto, es ofrecer una experiencia de compra satisfactoria al cliente.</p><p>Contamos con cuatro centros de producción de concreto para cubrir las necesidades de nuestros clientes en todo Costa Rica ubicados en:</p><p><i class='fa fa-map-marker-alt'></i>&nbsp;&nbsp;Curridabat, San Jose</p><p><i class='fa fa-map-marker-alt'></i>&nbsp;&nbsp;Coyol, Alajuela</p><p><i class='fa fa-map-marker-alt'></i>&nbsp;&nbsp;Cartago</p><p><i class='fa fa-map-marker-alt'></i>&nbsp;&nbsp;Guanacaste</p><p>Producimos concreto premezclado con plantas dosificadoras automatizadas, cuentan con sensores de humedad que nos garantizan mezclas de concreto de calidad cumpliendo rigurosamente todos los estándares de calidad bajo las normas internacionales y las normas vigentes actualmente en nuestro país, contamos con sistemas de logística y despacho en tiempo real para asegurar el cumplimiento a satisfacción de cada una de las entregas.</p></article><article><h2>Nuestra Flota actual se compone de:</h2><p><i class='fa fa-truck-moving'></i><b class='ifs'>35 </b>Camiones Mezcladores</p><p><i class='fa fa-truck-loading'></i><b class='ifs'>3 </b>Bombas Estacionarias</p><p><i class='fa fa-toolbox'></i><b class='ifs'>5 </b>Bombas Telescópicas de 28 y 36 metros de longitudxxx</p></article></div>",
+    "concreteBoxRightTitleEs": "Somos expertos en macrolosas de concreto"
+  },
+  "concrete": {
+    "concretoTitleEn" : "<h1>CONCRETE</h1>",
+    "boxLeftEn": "<div class='chose_text_inner'><article><h2>CONCRETE</h2><p>Since the year 2000 we started with the production of concrete in our main plant in Curridabat to deliver quality concrete to all the capital city, we focus in transforming a product as concrete in 100% Calidad Orosi that is beyond just a product is a complete satisfying purchase for the customer.</p><p>We have four production centers to cover all the demands that our customers have in Costa Rica:</p><p><i class='fa fa-map-marker-alt'></i>&nbsp;&nbsp;Curridabat, San Jose</p><p><i class='fa fa-map-marker-alt'></i>&nbsp;&nbsp;Coyol, Alajuela</p><p><i class='fa fa-map-marker-alt'></i>&nbsp;&nbsp;Cartago</p><p><i class='fa fa-map-marker-alt'></i>&nbsp;&nbsp;Guanacaste</p><p>We produce concrete with automated plants, which have humidity sensors that guaranteed that all our mixtures cover all the quality standards in the world. We work with a logistic dispatch system that functions on real time to assure the satisfaction of our customers.</p></article><article><h2>Our fleet:</h2><p><i class='fa fa-truck-moving'></i><b class='ifs'>35 </b> Mixer Trucks</p><p><i class='fa fa-truck-loading'></i><b class='ifs'>3 </b>Stationary Pumps</p><p><i class='fa fa-toolbox'></i><b class='ifs'>5</b> Boomb Pumps of 28 y 36 meters</p></article></div>",
+    "concreteBoxRightTitleEn": "We are experts in super flat jointless slabs"
+  }
+}

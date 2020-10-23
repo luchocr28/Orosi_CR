@@ -1,0 +1,60 @@
+.social-container {
+  width: 100%;
+  background: #000000;
+  padding-top: 1.8rem !important;
+  padding-bottom: 1.8rem !important;
+  .container-flex.d-flex {
+    transition: 1s all;
+  }
+  a {
+    color: #e8e8e8;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    display: inline-block;
+    outline: none;
+    position: relative;
+
+    &::before {
+      content: "";
+      background: #333;
+      width: 1px;
+      position: absolute;
+      left: -10px;
+      top: 0px;
+      height: 100%;
+    }
+  }
+  .ph,
+  .loc,
+  .time,
+  .fb,
+  .ins {
+    &:hover {
+      transition: 1s all;
+      color: #ce1126;
+      i {
+        transition: 1s all;
+        color: #ce1126;
+      }
+    }
+  }
+
+  i {
+    color: #e8e8e8;
+    margin-right: 0.6rem;
+  }
+}
+
+.container-flex {
+  @media (max-width: 585px) {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    .container-left {
+      margin-top: 1rem;
+    }
+  }
+}

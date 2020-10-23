@@ -1,0 +1,28 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 62.5%; /* Sets up the Base 10 stuff */
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  position: relative;
+  scroll-behavior: smooth !important;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  line-height: 2rem;
+}

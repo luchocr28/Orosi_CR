@@ -1,0 +1,125 @@
+#concreto {
+  position: relative;
+  z-index: 1;
+
+  .bannerBg {
+    background-image: url("../files/img/concreto.jpg");
+    background-size: cover;
+    padding: 20rem 0;
+    background-position: 0 80%;
+
+    h1 {
+      color: #ffffff;
+    }
+  }
+  &::after {
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: rgba(4, 4, 4, 0.5);
+
+    // background: url("../files/img/video/texture1.png");
+  }
+  .concreto-main {
+    overflow: hidden;
+    background: #1e2126;
+
+    .box-left,
+    .box-right {
+      width: 100%;
+      text-align: center;
+      @include mq("tablet") {
+        width: calc(50% + 15px);
+        float: left;
+        overflow: hidden;
+      }
+    }
+    .box-left {
+      .chose_text_inner {
+        margin-right: 4rem;
+        max-width: 600px;
+        article {
+          padding-right: 2rem;
+          padding-left: 2rem;
+          margin-top: 4rem;
+          @include mq("tablet") {
+            padding-right: 4rem;
+            margin-top: 16rem;
+            &:last-child {
+              margin-top: 4rem;
+              margin-bottom: 16rem;
+            }
+          }
+          h2 {
+            text-align: left;
+          }
+          p {
+            text-align: justify;
+
+            i {
+              color: #ffcd00;
+              font-size: 2rem;
+            }
+            .ifs {
+              padding-left: 10px;
+              font-size: 2.2rem;
+            }
+            &:last-child {
+              padding-bottom: 4rem;
+              border-bottom: 2px solid hsl(48, 100%, 50%);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  h2 {
+    color: #ffcd00;
+  }
+  h2,
+  p,
+  h1 {
+    z-index: 2;
+    position: relative;
+  }
+  p {
+    color: #ffffff;
+  }
+  .crew {
+    position: absolute;
+    z-index: 2;
+    margin: 80px 0;
+    @include mq("tablet") {
+      margin: 160px 0;
+      margin-right: 4rem;
+      width: calc(43% + 15px);
+    }
+  }
+  .box-right {
+    margin: 4rem 0;
+    border-left: 0 none;
+    z-index: 2;
+    @include mq("tablet") {
+      margin: 16rem 0;
+      border-left: 1px solid white;
+      z-index: 2;
+    }
+
+    .play {
+      width: 80%;
+      height: auto;
+      margin: 4rem auto;
+      cursor: pointer;
+      outline: none;
+      border: 0 none;
+    }
+    #myPlayer {
+      transition: opacity 2s ease-in-out;
+    }
+  }
+}
